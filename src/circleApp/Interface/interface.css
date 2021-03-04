@@ -1,0 +1,20 @@
+.interfaceLayout {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.btn {
+  background: hsl(205, 78%, 60%);
+  border-radius: 1rem;
+  border: 0;
+  margin-left: 1rem;
+  height: 2rem;
+  width: 7rem;
+  cursor: pointer;
+  transition: transform 2s linear;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px green;
+}
